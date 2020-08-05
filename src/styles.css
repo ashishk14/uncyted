@@ -189,3 +189,78 @@ section.home {
   color: #000;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 50px;
+  }
+  section.home{
+    width: 100%;
+  }
+  #tagline{
+    font-size: 14px;
+    width: 340px;
+  }
+  .title {
+    font-size: 64px;
+  }
+  .typist{
+    font-size: 20px;
+  }
+  .note{
+    font-size: 14px;
+    width: 100%;
+    margin: 30px 0 50px;
+  }
+  .invitation-cnt label {
+    font-size: 14px;
+  }
+  
+  .invitation-cnt {
+    margin: 20px 0;
+  }
+  
+  .invitation-cnt .email-box input {
+    height: 42px;
+    font-size: 14px;
+    width: 182px;
+    margin-left: -2px;
+  }
+  
+  .invitation-cnt .email-box button {
+    border-radius: 4px;
+    height: 44px;
+    position: relative;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .invitation-cnt .privacy{
+    font-size: 10px;
+  }
+
+  footer {
+    height: 85px;
+  }
+  
+  footer .content{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  footer .content .left{
+    /* font-family: "Ubuntu", sans-serif; */
+    font-size: 12px;
+    letter-spacing: 0px;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0 20px;
+
+  }
+  footer .content .right{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+}
