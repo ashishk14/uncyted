@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Work+Sans:wght@400;600&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+header img{
+  height: 60px;
+  margin: 10px 0;
+  position: relative;
+  left: -10px;
+  width: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  z-index: 1;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 90%;
+  max-width: 1200px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.bottom-bar {
+  display: block;
+  /* width: 0;
+  height: 0; */
+  position: absolute;
+  /* bottom: 100px;
+  border-bottom: 300px solid #03a9f4;
+  border-left: 100vw solid transparent; */
+  width: 100%;
+  height: 100px;
+  background: #03a9f4;
+  bottom: 0;
+  z-index: 0;
+}
+
+.bottom-bar:after {
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: calc(-300px - 100px);
+  left: -100vw;
+  background: #03a9f4;
+  z-index: 0;
+}
+
+section.illustration {
+  background: url("./illustration.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 450px;
+  display: block;
+  width: calc(100% - 100px);
+  margin: 0 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.hashtag {
+  /* background: #2e6da5; */
+  background: rgba(0,0,0,0.1);
+  color: #726255ad;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 72px;
+  font-family: "Ubuntu", sans-serif;
+  /* padding-left: 80px; */
+  /* background: url('./logo.jpg') no-repeat; */
+  /* background-size: 70px 70px;
+  background-position: 0; */
+  position: relative;
+  left: -5px;
+  color: #2e6da5;
+}
+
+#tagline{
+  margin: 0;
+  position: relative;
+  left: -6px;
+  font-size: 16px;
+}
+
+.typist {
+  margin: 2px 0 20px;
+  font-size: 22px;
+}
+
+.note{
+  margin: 10px 0 50px;
+  font-size: 16px;
+  line-height: 1.67;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+section.home {
+  max-width: 480px;
+  position: relative;
+  z-index: 1;
+}
+
+.invitation-cnt label {
+  color: #747474;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.invitation-cnt {
+  margin: 20px 0;
+}
+
+.invitation-cnt .email-box input {
+  height: 48px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 250px;
+  padding: 0 20px;
+}
+
+.invitation-cnt .email-box button {
+  background: #fb5085;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  height: 50px;
+  position: relative;
+  top: 1px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+
+.invitation-cnt .privacy{
+  margin: 10px 0;
+  font-size: 12px;
+  color: #000;
+  opacity: 0.5;
+}
