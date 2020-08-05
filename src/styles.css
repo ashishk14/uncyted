@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 90px;
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
@@ -24,16 +24,35 @@ header img{
 
 footer {
   position: absolute;
-  bottom: 30px;
+  bottom: 0px;
   z-index: 1;
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  width: 100%;
+  height: 100px;
+  background: #23547f;
+
+}
+
+footer .content{
   width: 90%;
   max-width: 1200px;
   left: 50%;
   transform: translate(-50%, 0);
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+footer .content .left{
+  /* font-family: "Ubuntu", sans-serif; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer .content .right{
+  
 }
 
 .bottom-bar {
@@ -44,9 +63,7 @@ footer {
   /* bottom: 100px;
   border-bottom: 300px solid #03a9f4;
   border-left: 100vw solid transparent; */
-  width: 100%;
-  height: 100px;
-  background: #03a9f4;
+  
   bottom: 0;
   z-index: 0;
 }
