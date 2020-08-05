@@ -233,6 +233,7 @@ section.home {
     position: relative;
     padding: 10px 15px;
     font-size: 12px;
+    top: -1px;
   }
   .invitation-cnt .privacy{
     font-size: 10px;
