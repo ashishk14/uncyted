@@ -87,7 +87,7 @@ section.illustration {
   height: 450px;
   display: block;
   width: calc(100% - 100px);
-  margin: 0 50px;
+  margin: 0 0 0 20px;
   z-index: 1;
   position: relative;
 }
@@ -190,6 +190,11 @@ section.home {
   opacity: 0.5;
 }
 
+@media screen and (max-width: 991px) {
+  section.illustration {
+    display: none;
+  }
+}
 @media screen and (max-width: 480px) {
   header {
     height: 50px;
@@ -235,6 +240,7 @@ section.home {
     font-size: 12px;
     top: -1px;
   }
+
   .invitation-cnt .privacy{
     font-size: 10px;
   }
