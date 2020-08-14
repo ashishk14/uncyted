@@ -92,6 +92,16 @@ section.home {
   margin: 0;
 }
 
+.text-blue{
+  color: #2e6da5;
+}
+
+.stay-tuned{
+  margin: 0px 0 20px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
 #tagline{
   margin: 0;
   position: relative;
@@ -106,7 +116,7 @@ section.home {
 }
 
 .note{
-  margin: 10px 0 50px;
+  margin: 10px 0 20px;
   font-size: 16px;
   line-height: 1.67;
   font-weight: normal;
@@ -241,7 +251,11 @@ footer .content .right{
   .note{
     font-size: 14px;
     width: 100%;
-    margin: 30px 0 50px;
+    margin: 30px 0px;
+  }
+  .stay-tuned{
+    font-size: 14px;
+    margin-bottom: 30px;
   }
   .invitation-cnt label {
     font-size: 14px;
